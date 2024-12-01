@@ -5,12 +5,12 @@
 	 "repositories": [
 		{
 			"type": "vcs",
-			"url": "git@github.com:Amaury/test-lib.git"
+			"url": "git@github.com:amaury/test-lib.git"
 		}
 	],
 	"require": {
 		"php": ">=8.0",
-		"Amaury/test-lib": "dev-main"
+		"amaury/test-lib": "dev-main"
 	},
 	"suggest": {
 		"smarty/smarty": "Smarty is an easy-to-use template engine. Use it if you need to generate HTML streams with Temma."
