@@ -1,0 +1,21 @@
+{
+	"name": "amaury/test-skel",
+	"description": "Test skeleton app",
+	"type": "project",
+	 "repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:Amaury/test-lib.git"
+		}
+	],
+	"require": {
+		"php": ">=8.0",
+		"Amaury/test-lib": "dev-main"
+	},
+	"suggest": {
+		"smarty/smarty": "Smarty is an easy-to-use template engine. Use it if you need to generate HTML streams with Temma."
+	},
+	"scripts": {
+		"post-create-project-cmd": "chmod 777 log tmp"
+	}
+}
